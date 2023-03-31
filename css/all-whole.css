@@ -11,7 +11,7 @@ html{
 
 body{
     /* background:url("/public/pics/001.jpg"); */
-    height: auto;
+
     background-color:white;
 }
 #on-mobile{
@@ -24,13 +24,15 @@ body{
     margin-left:3%;
     margin-right:3%;
     margin-top: 20px;
-    height:1100px;
+     height: 1600px;
     background-color:white;
 }
+
 .search-btn{
     position: relative;
-    left:34%;
+    left:36%;
     top:23px;
+    margin-bottom: 40px;
 }
 #list-subcity{
     list-style: none;
@@ -85,7 +87,7 @@ height: 35px;
     margin-top: 20px;
     position: absolute;
     /* border: 1px solid black; */
-    height:250px;
+    height:350px;
     padding: 10px;
    width: 100%;
    
@@ -93,68 +95,66 @@ height: 35px;
 .List-img1 .pic{
     position: relative;
    max-width:31%;
-    height: 240px;
+    height: 350px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 10px;
     
 }
 .pic img{
     display: block;
     position: relative;
     max-width:100%;
-    height:220px;
+    height:320px;
+    margin-left: 20px;
 }
 .List-img2{
     padding: 10px;
-    height:250px;
+    height:350px;
     width:100%;
     position: absolute;
-    top:400px;
+    margin-top:460px;
     display: block;
 }
-#List-img2{
-    top:350px;
-}
+
 .List-img2 .pic1{
     position: relative;
     max-width: 31%;
-    margin-left: 100px;
+    margin-left: 10px;
     display: inline-block;
+    height: 350px;
 }
 .pic1 img{
 max-width:100%;
-height:220px;
+height:320px;
 position: relative;
 display: block;
+margin-left: 20px;
 }
+
 .List-img3{
     position: absolute;
     width:100%;
-    top:710px;
+   margin-top:950px;
     padding: 10px;
-    height:240px;
-}
-#List-img3{
-    position: absolute;
-    width:100%;
-    top:670px;
-    padding: 10px;
-    height:240px;
+    height:350px;
 }
 .List-img3 .pic2{
-    display:inline-block;
-    max-width:31%;
     position: relative;
-    margin-left: 100px;
+    max-width: 31%;
+    margin-left: 10px;
+    display: inline-block;
+    height: 350px;
 }
 .pic2 img{
+    max-width:100%;
+    height:320px;
+    position: relative;
     display: block;
-   max-width:100%;
-    height:220px;
+    margin-left: 30px;
 
 }
 #next,#prev{
-    top:990px;
+    margin-top:1400px;
     right:20px;
     font-weight:400;
     
@@ -382,7 +382,7 @@ transition: 0.5s all ease;
 }
 .third-row{
     position: relative;
-    top:1200px;
+   margin-top:1400px;
   
 }
 #next1,#prev1{
@@ -432,7 +432,7 @@ transition: 0.5s all ease;
         margin-left: 20px;
     }
     .first-row{
-        margin:2%;
+        margin:0;
         width:100%;
     }
     .search-btn{
@@ -456,8 +456,8 @@ transition: 0.5s all ease;
         display:none;
     }
     .List-img1 .pic,.List-img2 .pic1,.List-img3 .pic2{
-        max-width:42%;
-        margin-left: 20px;
+        max-width:40%;
+        margin-left: 10px;
     }
     /* .List-img2 .pic1{
         max-width:42%;
@@ -517,18 +517,21 @@ transition: 0.5s all ease;
         
     }  
     .List-img2{
-        top:790px
+        margin-top:700px
     } 
     .List-img2 .pic1{
         max-width:100%;
         height: 350px;
+        display: inline-block;
+        margin-left: 0px;
     }
     .List-img3 .pic2{
         max-width:100%;
         height: 350px;
+        margin-left: 0px;
     }
     .List-img3{
-        top:1500px;
+        top:560px;
     }
     #next1,#prev1{
         top:2150px;
@@ -538,11 +541,17 @@ transition: 0.5s all ease;
         /* border: 1px solid black; */
         position:relative;
         width:96%;
-        left:-4%;
+        left:0;
         margin-right:0%;
         margin-top: 20px;
         height: 2200px;
         background-color:white;
+    }
+    #first-row h2{
+        font-size: 20px;
+    }
+    #list-subcity{
+        display: none;
     }
     .pic img{
         display: block;
@@ -568,7 +577,7 @@ transition: 0.5s all ease;
         left:13%;
     }
     #list-subcity{
-       
+       display: block;
         width: 280px;
     }
     .search-btn #sub-city{
